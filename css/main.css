@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+}
+
+.title {
+  border: dotted 1px lightgrey;
+}
+
+.title h2 {
+  text-align: center;
+}
+
+.card-main {
+  width: 30%;
+  border: solid 1px lightblue;
+  float: left;
+  margin: 1% 1%;
+  min-height: 700px;
+}
+
+.product-description {
+  margin: 5%;
+}
+
+.product-availabity {
+  color: yellow;
+  background-color: grey;
+  padding: 1px 0;
+  margin: 5% 0;
+}
+
+section header h4 {
+  margin: 0 5%;
+  padding: 0;
+}
+
+img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  display: block;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+footer {
+  margin: 1% 0;
+  font-size: .6em;
+}
