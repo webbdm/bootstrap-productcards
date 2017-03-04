@@ -1,131 +1,176 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cats as Products</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-  <!-- row -->
-  <article class="card-main">
-    <header class="title"><h2>Munchkin Cat</h2></header>
-    <section>
-      <img src="./images/munchkin-cat.jpg">
-      <div class="product-description">Flop over rub face on everything poop on grasses cat not kitten around so destroy couch as revenge or loves cheeseburgers, or drink water out of the faucet.</div>
-      <div class="product-availabity">Avaliable</div>
-    </section>
-    <section>
-      <header><h4>Specifications</h4></header>
-      <ul>
-        <li>Size: small</li>
-        <li>Weight: not much</li>
-      </ul>
-      <footer>Specifications valid until 3/4/2056</footer>
-    </section>
-    <section>
-      <header><h4>Pricing</h4></header>
-      <ul>
-        <li>1: $1,000</li>
-        <li>2-50: $750</li>
-        <li>50+: $600</li>
-      </ul>
-    </section>
-  </article>
-  <article class="card-main">
-    <header class="title"><h2>Norwegian Forest Cat</h2></header>
-    <section>
-      <img src="./images/norwegian-forest-cat.jpg">
-      <div class="product-description">Purrrrrr attack feet, but scamper sweet beast, yet eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap. </div>
-      <div class="product-availabity">Not Avaliable</div>
-    </section>
-    <section>
-      <header><h4>Specifications</h4></header>
-      <ul>
-        <li>Size: Medium</li>
-        <li>Weight: 12lbs</li>
-      </ul>
-      <footer>Specifications valid until 12/12/2020</footer>
-    </section>
-    <section>
-      <header><h4>Pricing</h4></header>
-      <ul>
-        <li>1: $2,000</li>
-        <li>2-50: $1,750</li>
-        <li>50+: $1,300</li>
-      </ul>
-    </section>
-  </article>
-  <article class="card-main">
-    <header class="title"><h2>Burrito Cat</h2></header>
-    <section>
-      <img src="./images/burrito-cat.jpg">
-      <div class="product-description">Cough furball when in doubt, wash, sleep nap make meme, make cute face or a nice warm laptop for me to sit on sit and stare and lick butt and make a weird face. I'm getting hungry howl on top of tall thing find empty spot in cupboard and sleep all day kick up litter touch water with paw then recoil in horror.</div>
-      <div class="product-availabity">Avaliable</div>
-    </section>
-    <section>
-      <header><h4>Specifications</h4></header>
-      <ul>
-        <li>Size: Medium</li>
-        <li>Weight: 12lbs</li>
-      </ul>
-      <footer>Specifications valid until 12/12/2020</footer>
-    </section>
-    <section>
-      <header><h4>Pricing</h4></header>
-      <ul>
-        <li>1: $2,000</li>
-        <li>2-50: $1,750</li>
-        <li>50+: $1,300</li>
-      </ul>
-    </section>
-  </article>
-  <!-- row -->
-  <article class="card-main">
-    <header class="title"><h2>Burmese Cat</h2></header>
-    <section>
-      <img src="./images/burmese-cat.jpg">
-      <div class="product-description">Put toy mouse in food bowl run out of litter box at full speed cats secretly make all the worlds muffins immediately regret falling into bathtub.</div>
-      <div class="product-availabity">Not Avaliable</div>
-    </section>
-    <section>
-      <header><h4>Specifications</h4></header>
-      <ul>
-        <li>Size: Medium</li>
-        <li>Weight: 12lbs</li>
-      </ul>
-      <footer>Specifications valid until 12/12/2020</footer>
-    </section>
-    <section>
-      <header><h4>Pricing</h4></header>
-      <ul>
-        <li>1: $250</li>
-        <li>2-50: $175</li>
-        <li>50+: $85</li>
-      </ul>
-    </section>
-  </article>
-  <article class="card-main">
-    <header class="title"><h2>Balinese Cat</h2></header>
-    <section>
-      <img src="./images/balinese-cat.png">
-      <div class="product-description">Under the bed steal the warm chair right after you get up, purr yet stand in front of the computer screen toy mouse squeak roll over, brown cats with pink ears. Dream about hunting birds immediately regret falling into bathtub meow to be let in eats owners hair then claws head yet meow.</div>
-      <div class="product-availabity">Avaliable</div>
-    </section>
-    <section>
-      <header><h4>Specifications</h4></header>
-      <ul>
-        <li>Size: Medium</li>
-        <li>Weight: 12lbs</li>
-      </ul>
-      <footer>Specifications valid until 12/12/2020</footer>
-    </section>
-    <section>
-      <header><h4>Pricing</h4></header>
-      <ul>
-        <li>1: $250</li>
-        <li>2-50: $175</li>
-        <li>50+: $85</li>
-      </ul>
-    </section>
-  </article>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul> -->
+          <!-- </li> -->
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+ <div class="container">
+  <div class="row">
+
+      <article class="col-sm-6 col-md-4">
+        <header class="title"><h2>Munchkin Cat</h2></header>
+        <section>
+          <img class="img-thumbnail" src="./images/munchkin-cat.jpg">
+          <div class="product-description">Flop over rub face on everything poop on grasses cat not kitten around so destroy couch as revenge or loves cheeseburgers, or drink water out of the faucet.</div>
+          <div class="bg-info">Avaliable</div>
+        </section>
+        <section>
+          <header><h4>Specifications</h4></header>
+          <ul>
+            <li>Size: small</li>
+            <li>Weight: not much</li>
+          </ul>
+          <footer>Specifications valid until 3/4/2056</footer>
+        </section>
+        <section>
+          <header><h4>Pricing</h4></header>
+          <ul>
+            <li>1: $1,000</li>
+            <li>2-50: $750</li>
+            <li>50+: $600</li>
+          </ul>
+        </section>
+      </article>
+      <article class="col-sm-6 col-md-4">
+        <header class="title"><h2>Norwegian Forest Cat</h2></header>
+        <section>
+          <img class="img-thumbnail" src="./images/norwegian-forest-cat.jpg">
+          <div class="product-description">Purrrrrr attack feet, but scamper sweet beast, yet eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap. </div>
+          <div class="bg-info">Not Avaliable</div>
+        </section>
+        <section>
+          <header><h4>Specifications</h4></header>
+          <ul>
+            <li>Size: Medium</li>
+            <li>Weight: 12lbs</li>
+          </ul>
+          <footer>Specifications valid until 12/12/2020</footer>
+        </section>
+        <section>
+          <header><h4>Pricing</h4></header>
+          <ul>
+            <li>1: $2,000</li>
+            <li>2-50: $1,750</li>
+            <li>50+: $1,300</li>
+          </ul>
+        </section>
+      </article>
+      <article class="col-sm-6 col-md-4">
+        <header class="title"><h2>Burrito Cat</h2></header>
+        <section>
+          <img class="img-thumbnail" src="./images/burrito-cat.jpg">
+          <div class="product-description">Cough furball when in doubt, wash, sleep nap make meme, make cute face or a nice warm laptop for me to sit on sit and stare and lick butt and make a weird face. I'm getting hungry howl on top of tall thing find empty spot in cupboard and sleep all day kick up litter touch water with paw then recoil in horror.</div>
+          <div class="bg-info">Avaliable</div>
+        </section>
+        <section>
+          <header><h4>Specifications</h4></header>
+          <ul>
+            <li>Size: Medium</li>
+            <li>Weight: 12lbs</li>
+          </ul>
+          <footer>Specifications valid until 12/12/2020</footer>
+        </section>
+        <section>
+          <header><h4>Pricing</h4></header>
+          <ul>
+            <li>1: $2,000</li>
+            <li>2-50: $1,750</li>
+            <li>50+: $1,300</li>
+          </ul>
+        </section>
+      </article>
+      <article class="col-sm-6 col-md-4">
+        <header class="title"><h2>Burmese Cat</h2></header>
+        <section>
+          <img class="img-thumbnail" src="./images/burmese-cat.jpg">
+          <div class="product-description">Put toy mouse in food bowl run out of litter box at full speed cats secretly make all the worlds muffins immediately regret falling into bathtub.</div>
+          <div class="bg-info">Not Avaliable</div>
+        </section>
+        <section>
+          <header><h4>Specifications</h4></header>
+          <ul>
+            <li>Size: Medium</li>
+            <li>Weight: 12lbs</li>
+          </ul>
+          <footer>Specifications valid until 12/12/2020</footer>
+        </section>
+        <section>
+          <header><h4>Pricing</h4></header>
+          <ul>
+            <li>1: $250</li>
+            <li>2-50: $175</li>
+            <li>50+: $85</li>
+          </ul>
+        </section>
+      </article>
+      <article class="col-sm-6 col-md-4">
+        <header class="title"><h2>Balinese Cat</h2></header>
+        <section>
+          <img class="img-thumbnail" src="./images/balinese-cat.png">
+          <div class="product-description">Under the bed steal the warm chair right after you get up, purr yet stand in front of the computer screen toy mouse squeak roll over, brown cats with pink ears. Dream about hunting birds immediately regret falling into bathtub meow to be let in eats owners hair then claws head yet meow.</div>
+          <div class="bg-info">Avaliable</div>
+        </section>
+        <section>
+          <header><h4>Specifications</h4></header>
+          <ul>
+            <li>Size: Medium</li>
+            <li>Weight: 12lbs</li>
+          </ul>
+          <footer>Specifications valid until 12/12/2020</footer>
+        </section>
+        <section>
+          <header><h4>Pricing</h4></header>
+          <ul>
+            <li>1: $250</li>
+            <li>2-50: $175</li>
+            <li>50+: $85</li>
+          </ul>
+        </section>
+      </article>
+
+  </div>
+ </div>
+ 
 </body>
 </html>
